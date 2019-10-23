@@ -27,7 +27,7 @@ a{
 	flex-direction: column;
 }
 .card{
-	width: 32rem;
+	width: 30rem;
 	background-color: #E9ECFB;
 	display: flex;
 	flex-direction: column;
