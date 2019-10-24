@@ -17,8 +17,8 @@ a{
     margin-left: 50px;
 }
 .sign-up {
-    background-color: #213dcd;
-    color: white;
+    background-color: #6d9bf1;
+    color: #ffebef;
 }
 
 .navbar ul li a {
@@ -28,17 +28,17 @@ a{
     font-weight: bold;
     font-size: 22px;
     line-height: 48px;
-    color: #213dcd;
+    color: #6d9bf1;
 }
 
 .nav-link {
-    color: #213dcd !important;
+    color: #6d9bf1!important;
 }
 
 .active {
     border-radius: 0%;
     padding: 0 30px;
-    background-color: #213dcd;
+    background-color: #6d9bf1;
 }
 .heading{
 	font-size: 3.5rem;
@@ -56,7 +56,7 @@ a{
 	flex-direction: column;
 }
 .card{
-	width: 30rem;
+	width: 32rem;
 	background-color: #E9ECFB;
 	display: flex;
 	flex-direction: column;
@@ -90,7 +90,7 @@ a{
 	justify-content: center;
 	padding: 2rem 0;
 	margin-top: 1.5rem;
-	border-top: 1px solid blue;
+	border-top: 1px solid #6d9bf1;
 }
 .social-media i{
 	font-size: 3rem;
@@ -102,73 +102,6 @@ a{
 .fa-twitter-square{
 	color: #55acee;
 }
-/* MOBILE FIRST */
-
-* {
-                    font-family: Lato;
-                    font-style: normal;
-}
-
-footer {
-                    background: rgba(33, 60, 220, 0.1);
-                    margin: auto;
-                    overflow: hidden;
-                    padding: 15px;
-}
-.footer_elements,
-.footer_brand {
-                    display:  flex;
-                    flex-direction: column;
-                    padding-inline-start:  0px;
-                    align-items: center;
-                    margin: 0 0 0 0;
-
-}
-.footer_elements {
-                    width: auto;
-}
-.footer_elements li {
-
-                    font-weight:  bold;
-                    font-size: 18px;
-                    display: inline-block;
-                    padding:  5px;      
-                    width: fit-content;
-}
-.footer_elements li  a {
-                    text-decoration: none;
-                    color: black;
-}
-.footer_brand  img {
-                    height:  80px;
-                    width: 100px;
-                    vertical-align: middle;
-
-}
-@media screen  and (min-width: 600px){
-                    .footer_brand {
-                                        float: left;
-                    }
-                    .footer_brand {
-                                        left: 223px;
-                                        margin: 0 0 0 5vw ;
-                    }
-
-                    
-                    .footer_elements li { 
-                                        margin: 0 0 0 20px ;
-                    }
-                    .footer_elements{
-                                        margin:  15px 0 0 0;
-                                        /* line-height: 60px; */
-                                        vertical-align: middle;
-                                        flex-direction:  row;
-                                        padding-inline-start:  0px;
-                                        justify-content: flex-end;
-                    }
-
-}
-
 @media screen and (min-width:700px){
 	.card-wrap{
 		flex-direction: row;
